@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\STB_IMAGE\stb_image.c">
+      <Filter>Source\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GLAD\glad.c">
+      <Filter>Source\ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Model.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Shader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\RenderEngine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Primitives.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PBR.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SobelPipeline.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FrameBufferObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VBOQuad.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{48101566-99c8-43eb-8a57-c9084d5c45f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{bc864e46-e905-4b8c-93b8-abfb3db6f7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{2cc19add-882f-4885-bb96-f30da97a65fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ThirdParty">
+      <UniqueIdentifier>{248f226d-3b50-42b9-b5ef-c3e1097f2e5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\camera.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Mesh.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Model.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_image.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Shader.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RenderEngine.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Primitives.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Light.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PBR.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SobelPipeline.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FrameBufferObject.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VBOQuad.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\pbr.vs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\pbr.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\cubemap.vs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\equireToCube.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\irradiancemap.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\pbruntextured.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\pbruntextured.vs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\preFilterConvo.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\preFilterConvoNoBits.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\skybox.fs">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="resources\shaders\skybox.vs">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
